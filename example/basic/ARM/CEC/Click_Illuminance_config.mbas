@@ -1,0 +1,8 @@
+module Click_Illuminance_config
+
+include Click_Illuminance_types
+
+const
+    _ILLUMINANCE_I2C_CFG as uint32_t[1] = (_I2C_100KHZ)
+    
+end.
